@@ -1,0 +1,29 @@
+{
+  "name": "spm-grunt",
+  "description": "The best spm plugin ever.",
+  "version": "0.1.0a1",
+  "homepage": "https://github.com/spmjs/spm-grunt",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spmjs/spm-grunt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spmjs/spm-grunt/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/spmjs/spm-grunt/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bin": {
+    "spm-grunt": "bin/spm-grunt"
+  },
+  "keywords": [
+    "spmplugin"
+  ],
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js",
+    "uninstall": "node scripts/uninstall.js"
+  }
+}
