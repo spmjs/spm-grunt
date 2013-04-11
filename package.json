@@ -1,6 +1,6 @@
 {
   "name": "spm-grunt",
-  "description": "The best spm plugin ever.",
+  "description": "A bridge to extend grunt.",
   "version": "0.1.0a1",
   "homepage": "https://github.com/spmjs/spm-grunt",
   "repository": {
@@ -16,14 +16,10 @@
       "url": "https://github.com/spmjs/spm-grunt/blob/master/LICENSE-MIT"
     }
   ],
-  "bin": {
-    "spm-grunt": "bin/spm-grunt"
+  "dependencies": {
+    "spmrc": "0.1.3"
   },
   "keywords": [
     "spmplugin"
-  ],
-  "scripts": {
-    "postinstall": "node scripts/postinstall.js",
-    "uninstall": "node scripts/uninstall.js"
-  }
+  ]
 }
