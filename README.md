@@ -27,6 +27,10 @@ Load tasks in the global `NODE_PATH`. Just like loadNpmTasks, it can load task c
 
 ## Changelog
 
-**April 11th, 2013** `0.1.0`
+**April 12, 2013** `0.1.1`
+
+Patch log right.
+
+**April 11, 2013** `0.1.0`
 
 First version.
