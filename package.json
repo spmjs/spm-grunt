@@ -1,7 +1,7 @@
 {
   "name": "spm-grunt",
   "description": "A bridge to extend grunt.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/spmjs/spm-grunt",
   "repository": {
     "type": "git",
