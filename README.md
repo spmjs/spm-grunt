@@ -27,6 +27,10 @@ Load tasks in the global `NODE_PATH`. Just like loadNpmTasks, it can load task c
 
 ## Changelog
 
+**May 30, 3013** `0.1.5`
+
+Fix when `NODE_PATH` has multiple values.
+
 **May 2, 2013** `0.1.4`
 
 Fallback if the gruntfile has errors.
