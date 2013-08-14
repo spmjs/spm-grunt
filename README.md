@@ -27,11 +27,15 @@ Load tasks in the global `NODE_PATH`. Just like loadNpmTasks, it can load task c
 
 ## Changelog
 
-**June 6, 3013** `0.1.6`
+**Aug 14, 2013** `0.1.7`
+
+Pass encoding to grunt.file.
+
+**June 6, 2013** `0.1.6`
 
 Fix loadGlobalTask get wrong path from dependencies
 
-**May 30, 3013** `0.1.5`
+**May 30, 2013** `0.1.5`
 
 Fix when `NODE_PATH` has multiple values.
 
